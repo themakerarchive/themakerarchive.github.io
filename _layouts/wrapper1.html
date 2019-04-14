@@ -1,0 +1,112 @@
+---
+layout: wrapper0
+---
+
+<!-- Main -->
+<div id="main">
+    {{ content }}
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+    <div class="inner">
+
+        <section id="search" class="alt">  
+            <form method="post" action="#">  
+                <input type="text" name="query" id="search-input" placeholder="search posts..." autocomplete="off">
+                <br>
+                <ul id="results-container" class="contact">
+                    <!-- SEARCH RESULTS -->
+                </ul>
+                <br>
+            </form>
+        </section>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <header class="major">
+                <h2>Menu</h2>
+            </header>
+            <ul>
+                <li><a href="{{ '' | absolute_url }}">Homepage</a></li>
+                <li>
+                    {% for category in site.categories %}
+                        <span class="opener">{{ category[0] }}</span>
+                        <ul>
+                            {% comment %}
+                            =======================
+                            The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+                            =======================
+                            {% endcomment %}
+                            {% assign rawtags = "" %}
+                            {% for post in category[1] %}
+                                {% assign ttags = post.tags | join:'|' | append:'|' %}
+                                {% assign rawtags = rawtags | append:ttags %}
+                            {% endfor %}
+                            {% assign rawtags = rawtags | split:'|' | sort %}
+                            
+                            {% comment %}
+                            =======================
+                            The following part removes dulpicated tags and invalid tags like blank tag.
+                            =======================
+                            {% endcomment %}
+                            {% assign tags = "" %}
+                            {% for tag in rawtags %}
+                                {% if tag != "" %}
+                                    {% if tags == "" %}
+                                        {% assign tags = tag | split:'|' %}
+                                    {% endif %}
+                                    {% unless tags contains tag %}
+                                        {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+                                    {% endunless %}
+                                {% endif %}
+                            {% endfor %}
+
+                            {% for tag in tags %}
+                                <li><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Section -->
+        <section>
+            <header class="major">
+                <h2>Instagram buzz</h2>
+            </header>
+            <div class="mini-posts" id="instafeed">
+                <!-- INSTAFEED -->
+            </div>
+            <ul class="actions">
+                <li><a href="https://www.instagram.com/themakerarchive/" target="_blank" class="button">See More</a></li>
+            </ul>
+        </section>
+
+        <!-- Section -->
+        <!-- <section>
+            <header class="major">
+                <h2>Get in touch</h2>
+            </header>
+            <p>You can find me on various social media
+            </p>
+            <ul class="contact">
+                <li class="fa-envelope-o"><a href="#">{{ site.email }}</a></li>
+                <li class="fa-phone">{{ site.phone }}</li>
+                <li class="fa-home">{{ site.street_address }}<br />
+                    {{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
+                    {{ site.country }}</li>
+            </ul>
+        </section> -->
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="copyright">&copy; {{ site.title }}. All rights reserved. <br>
+                Design: <a href="https://html5up.net">HTML5 UP</a>.
+            </p>
+        </footer>
+
+    </div>
+</div>
+<!-- END OF Sidebar -->

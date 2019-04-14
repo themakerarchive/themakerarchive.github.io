@@ -1,0 +1,39 @@
+<!-- Scripts -->
+<script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script>
+<script src="{{ 'assets/js/skel.min.js' | absolute_url }}"></script>
+<script src="{{ 'assets/js/util.js' | absolute_url }}"></script>
+<!--[if lte IE 8]><script src="{{ 'assets/js/ie/respond.min.js' | absolute_url }}"></script><![endif]-->
+<script src="{{ 'assets/js/main.js' | absolute_url }}"></script>
+
+<!-- instagram feed http://instafeedjs.com/-->
+<script type="text/javascript" src="{{ 'assets/js/instafeed.min.js' | absolute_url }}"></script>
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+      get: 'user',
+      userId: '5223852727',
+      clientId: '67876a11924c40b69799c82499095bff',
+      accessToken: '5223852727.67876a1.a9825df19fc745e6b387b0b2ff29f230',
+      resolution: 'low_resolution', 
+      template: '<article><a href="\{\{link\}\}" target="_blank" id="\{\{id\}\}" class="image"><img src="\{\{image\}\}" /></a><p>\{\{caption\}\}</p></article>',
+      sortBy: 'random',
+    //   limit: 4,
+      links: false,
+      after: function () {
+            var images = $("#instafeed").find('article');
+            $(images.slice(2, images.length)).remove();
+        }    
+    });
+    userFeed.run();
+</script>
+
+<!-- Search https://christianfei.com/posts/Use-Simple-Jekyll-Search-on-your-blog-in-these-easy-steps/ -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+    var sj = "{{ 'search.json' | absolute_url }}";
+    var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: sj,
+        searchResultTemplate: '<li class="fa-angle-right"><a href="{{ site.url }}{url}">{title}</a></li>'
+    })
+</script>

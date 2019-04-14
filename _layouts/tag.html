@@ -1,0 +1,21 @@
+---
+layout: wrapper2
+---
+
+<!-- Content -->
+<section>
+    <header class="main">
+        <h1>{{ page.tag | capitalize}}</h1>
+    </header>
+
+    <ul>
+        {% for post in site.tags[page.tag] %}
+            <li>
+            {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title | downcase }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {{ content }}
+</section>
+

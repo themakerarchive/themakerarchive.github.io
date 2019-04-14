@@ -1,0 +1,17 @@
+---
+layout: wrapper2
+---
+
+<!-- Content -->
+<section>
+    <header class="main">
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    {% if page.image %}
+    <span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
+    {% endif %}
+
+    {{ content }}
+</section>
+

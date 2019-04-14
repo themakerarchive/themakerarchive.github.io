@@ -1,0 +1,29 @@
+---
+layout: wrapper1
+---
+
+<div class="inner">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="{{ '' | absolute_url }}" class="logo"><strong>{{ site.title }}</strong></a>
+        <ul class="icons">
+            {% if site.twitter_url %}
+            <li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span
+                        class="label">Twitter</span></a></li>
+            {% endif %}
+            {% if site.instagram_url %}
+            <li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span
+                        class="label">Instagram</span></a></li>
+            {% endif %}
+            {% if site.pinterest_url %}
+            <li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span
+                        class="label">Pinterest</span></a></li>
+            {% endif %}
+        </ul>
+    </header>
+    <p>{{ site.subtitle }}</p>
+
+    {{ content }}
+
+</div>

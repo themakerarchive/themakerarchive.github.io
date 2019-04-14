@@ -1,2 +1,0 @@
-# themakerarchive.github.io
-blog
