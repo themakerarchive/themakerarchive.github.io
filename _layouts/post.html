@@ -21,11 +21,11 @@ layout: wrapper2
         
 
     {% for category in page.categories %}
-        <li><a href="/categories/{{ category | slugify}}/" class="button special small">{{ category | capitalize }}</a></li>
+        <li><a href="/categories/{{ category | slugify}}" class="button special small">{{ category | capitalize }}</a></li>
     {% endfor %}
 
     {% for tag in page.tags %}
-        <li><a href="/tags/{{ tag | slugify}}/" class="button small">{{ tag | capitalize}}</a></li>
+        <li><a href="/tags/{{ tag | slugify}}" class="button small">{{ tag | capitalize}}</a></li>
     {% endfor %}
     </ul>
 </section>
