@@ -31,7 +31,7 @@ layout: index
 				{% endif %}
 
 				<span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-				<h3>{{ post.title }}</h3>
+				<h3>{{ post.title | upcase }}</h3>
 				<p>{{ post.excerpt }}</p>
 				<ul class="actions">
 					<li><a href="{{ post.url }}" class="button">More</a></li>
