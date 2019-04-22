@@ -5,6 +5,7 @@ categories: jewellery
 tags: [musings]
 ---
 
+<span class="image right"><img src="/assets/images/photo-2018-06-26-a.jpg" alt="" /></span>
 The presence of something new is certainly a double-edged sword. It provides a great deal of excitement, though it could also veil our perception with the impression that everything is going to be different ‘this time’ around. Which was exactly the case when I enrolled myself into an introductory course on silversmithing earlier this year.
 
 I’d mistakenly thought it would provide some much-needed motivation that would finally allow me to create some content. I schemed and vowed to document everything I learned in class, yet Saturdays came and went and now two months have passed since the course came to an end. Such is the way of life. Plans have a surreptitious way of unravelling and, sometimes, even as they dangle by a thread, we hang onto our stubborn, obsolete ways – refusing to see and approach things from vantage points different from our own.

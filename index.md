@@ -45,7 +45,7 @@ layout: index
 	<a class="icon fa-tags" href="{{ 'elements.html' | absolute_url }}"></a>
     {% for tag in site.tags %}
 	<span>  |  </span>
-    <a href="/tags/{{ tag[0] | slugify}}/" 
+    <a href="/tags/{{ tag[0] | slugify}}" 
     style="font-size: {{ tag[1] | size | times: 2 | plus: 10 }}px">{{ tag[0] }}</a>
     {% endfor %}
 </p>

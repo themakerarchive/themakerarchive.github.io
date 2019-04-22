@@ -39,8 +39,8 @@ twitter_url: https://twitter.com/themakerarchive
 markdown: kramdown
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
