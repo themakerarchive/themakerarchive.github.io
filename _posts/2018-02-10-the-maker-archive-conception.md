@@ -2,11 +2,11 @@
 layout: post
 title:  "THE MAKER ARCHIVE: CONCEPTION"
 categories: journal
-tags: [journal, life]
+tags: [personal]
 ---
 
 <span class="image right"><img src="/assets/images/photo-2018-02-10-a.jpg" alt="" /></span>
-I read somewhere that an inch of movement is better than a mile of intention—a powerful line that was instrumental in prompting me to finally carve out a presence, however small and ambivalent, in the world of blogs.
+I read somewhere that an inch of movement is better than a mile of intention—a powerful line which was instrumental in prompting me to finally carve out a presence, however small and ambivalent, in the world of blogs.
 
 It’s been nearly a year since The Maker Archive’s initial conception. In between procrastination and getting caught up in a paralysing flurry of ideas and mixed feelings, a reminder came from the back of my mind in the form of a quote by Andrew Juniper—in his book entitled Wabi-Sabi: The Japanese Art of Impermanence: “Anything that’s absolutely perfect is absolutely dead.”
 
