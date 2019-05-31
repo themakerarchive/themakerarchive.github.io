@@ -1,4 +1,4 @@
 ---
 layout: tag
-tag: june teas
+tag: June teas
 ---
