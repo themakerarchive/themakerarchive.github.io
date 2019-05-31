@@ -1,4 +1,4 @@
 ---
 layout: category
-category: tea
+category: tea club
 ---
