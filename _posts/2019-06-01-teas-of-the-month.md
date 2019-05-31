@@ -2,9 +2,11 @@
 layout: post
 title:  "Teas of the Month"
 categories: [dublin tea society]
-tags: [june teas]
+tags: [teas of the month]
 ---
 
 Pu-Er Bai Ya
-<br>Long Jing
-<br>Kukicha
+  <br>
+      Kukicha
+    <br>
+        Long Jing
