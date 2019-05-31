@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Teas of the Month"
-categories: [tea club]
+categories: [dublin tea society]
 tags: [june teas]
 ---
 
