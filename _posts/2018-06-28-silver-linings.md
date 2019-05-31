@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "SILVER LININGS"
-categories: jewellery
-tags: [musings, on the bench]
+categories: bijouterie
+tags: [on the bench]
 ---
 
 <span class="image right"><img src="/assets/images/photo-2018-06-28.jpg" alt="" /></span>
