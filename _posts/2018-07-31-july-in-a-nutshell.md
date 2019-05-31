@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JULY IN A NUTSHELL"
-categories: jewellery
+categories: bijouterie
 tags: [on the bench]
 ---
 
