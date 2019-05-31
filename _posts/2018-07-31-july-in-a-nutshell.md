@@ -2,7 +2,7 @@
 layout: post
 title:  "JULY IN A NUTSHELL"
 categories: jewellery
-tags: [musings, on the bench]
+tags: [on the bench]
 ---
 
 <span class="image right"><img src="/assets/images/photo-2018-07-31-a.jpg" alt="" />
