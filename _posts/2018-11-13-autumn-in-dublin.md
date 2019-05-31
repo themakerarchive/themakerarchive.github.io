@@ -2,7 +2,7 @@
 layout: post
 title:  "PASSING OF SEASONS"
 categories: journal
-tags: [journal, life]
+tags: [personal]
 ---
 
 <span class="image right"><img src="/assets/images/photo-2018-11-13-a.jpg" alt="" /></span>
