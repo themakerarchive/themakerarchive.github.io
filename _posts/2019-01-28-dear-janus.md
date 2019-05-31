@@ -2,7 +2,7 @@
 layout: post
 title:  "dear janus"
 categories: journal
-tags: [journal]
+tags: [personal]
 ---
 
 January: a month of firsts, and of pledge renewals from New Year’s past. Ja-new-ary. Now that’s an alternative spelling befitting its origin. Did you know January comes comes from the Latin word ianua, meaning door or gate? I didn’t, but a quick Google search will easily tell you that. When I feel I’m scraping the bottom of a barrel for writing inspiration, I choose a word and look it up in the dictionary – a practice which enables me to approach a topic or idea from another angle.
