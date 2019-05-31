@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Teas of the Month"
-categories: tea
+categories: tea club
 tags: [june teas]
 ---
 
 Pu-Er Bai Ya
-<br>Long Jing</br>
-<br>Kukicha</br>
+<br>Long Jing
+<br>Kukicha
