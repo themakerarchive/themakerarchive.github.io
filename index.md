@@ -5,7 +5,7 @@ layout: index
 <section id="banner">
     <div class="content">
         <header>
-            <h1>Hi, I’m K</h1>
+            <h1>Hi, I’m K.</h1>
             <p>and I'm a Maker</p>
         </header>
         <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam 		facilisis ante interdum congue.
