@@ -5,13 +5,12 @@ layout: index
 <section id="banner">
     <div class="content">
         <header>
-            <h1>Hi, I’m K.</h1>
-            <p>and I'm a Maker</p>
+            <h1>Hi, I’m Karen</h1>
+            <p> I live in Dublin, Ireland</p>
         </header>
-        <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam 		facilisis ante interdum congue.
-            Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi
-            nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
-        </p>
+        <p>This blog was originally created to share the things I learned in a silversmithing course last year, but isn’t it hard to portray only one facet of ourselves when we as individuals are agglomerations of our interests, life experiences, idiosyncrasies, etc.?</p>
+		<p>As a place where the creative parts of myself collide, you can expect to read musings on jewellery, learn a thing or two about tea, and peak into the inner workings of my mind once in a while – with a lot of photos thrown in for good measure!</p>
+		<p> Background: I am a woman of the tropics, though there is nothing quite as romantic to me as driving through the west coast on a misty day. My favourite colour is green – its mossy and emerald shades, a symbolic representation of the tropical jungles of the Philippines; the luscious Irish countryside after the rain. I’ve long accepted that my heart will always stand on a balance between these two shores, not favouring either, yet keeping myself open to what other cultures have to offer – all unique and beautiful in their own ways.</p>
     </div>
     <span class="image object">
         <img src="assets/images/themakerarchive-welcome.jpg" alt="" />
