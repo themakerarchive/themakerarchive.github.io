@@ -2,7 +2,7 @@
 layout: post
 title:  "FINISHED PRODUCT VS PROCESS"
 categories: bijouterie
-tags: [on the bench]
+tags: [musings]
 ---
 
 <span class="image right"><img src="/assets/images/photo-2018-07-08-a.jpg" alt="" /></span>
