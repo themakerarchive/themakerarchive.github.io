@@ -5,7 +5,7 @@ layout: index
 <section id="banner">
     <div class="content">
         <header>
-            <h1>Hi, I’m Karen</h1>
+            <h3>Hi, I’m Karen</h3>
             <p> I live in Dublin, Ireland</p>
 	</header>
     </div>
