@@ -7,6 +7,8 @@ layout: index
         <header>
             <h3>Hi, I’m Karen</h3>
             <p> I live in Dublin, Ireland</p>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/themakerarchive" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/themakerarchive', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+         
 	</header>
     </div>
     <span class="image object">
