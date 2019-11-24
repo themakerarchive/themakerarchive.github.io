@@ -1,4 +1,4 @@
 ---
 layout: category
-category: craft & design
+category: jewellery
 ---
