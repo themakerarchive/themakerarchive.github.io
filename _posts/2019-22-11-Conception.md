@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Concepcion"
+title:  "Conception"
 categories: journal
 tags: [personal]
 ---
