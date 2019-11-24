@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello, it is I once again."
+title:  "Hello, it is I once again"
 categories: journal
 tags: [personal]
 ---
